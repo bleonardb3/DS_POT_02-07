@@ -5,7 +5,7 @@ Watson Studio provides you with the environment and tools to solve your business
 
 Watson Studio is tightly integrated with the Watson Knowledge Catalog. The Watson Knowledge Catalog is a secure enterprise catalog to discover, catalog and govern your data/models with greater efficiency. The catalog is underpinned by a central repository of metadata describing all the information managed by the platform. Users will be able to share data with their colleagues more easily, regardless of what the data is, where it is stored, or how they intend to use it. In this way, the intelligent asset catalog will unlock the value held within that data across user groups—helping organizations use this key asset to its full potential.
 
-The labs in this workshop will illustrate the myriad features included in Watson Studio, and Watson Knowlege Catalog. 
+The labs in this workshop will illustrate the myriad features included in Watson Studio, and Watson Knowlege Catalog. lab-1, Lab-2, and Lab-3 need to be completed in order. Subsequent labs are independent. 
 
 
 1. [Lab-1](Lab-1) - The first lab will demonstrate the features of the Watson Knowledge Catalog
@@ -14,13 +14,13 @@ The labs in this workshop will illustrate the myriad features included in Watson
 
 1. [Lab-3](Lab-3) - The third lab will guide participants in examining an R notebook and Shiny UI in Watson Studio using RStudio. It will rely on the output results from Lab-1 and Lab-2. 
 
-1. [Lab-4](Lab-4) - SPSS Lab
+1. [Lab-4](Lab-4) - Neural Network Lab
 
-1. [Lab-5](Lab-5) - Data Refinery Lab 
+1. [Lab-5](Lab-5) - SPSS Modeler Lab
 
-1. [Lab-6](Lab-6) - Visual Recognition Lab 
+1. [Lab-6](Lab-6) - Data Refinery Lab
 
-1. [Lab-7](Lab-7) - Natural Classifer Lab 
+1. [Lab-7](Lab-7) - Visual Recognition Lab 
 
-1. [Lab-8](Lab-8) - Dashboard Lab 
+1. [Lab-8](Lab-8) - Natural Language Classifier Lab 
 
