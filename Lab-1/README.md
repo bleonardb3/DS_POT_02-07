@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-This lab will introduce Watson Knowledge Catalog. Watson Knowledge Catalog is a secure enterprise catalog to discover, catalog and govern your data/models with greater efficiency. 
+This lab will introduce you to the features of IBM's Watson Knowledge Catalog. Watson Knowledge Catalog is a secure enterprise catalog to discover, catalog and govern your data and modeling assets with greater efficiency. 
 
 ## Objectives:
 
@@ -21,5 +21,5 @@ The goal of the lab is to gain familiarity with the features of the Watson Knowl
 
 ### Step 1.  Please click on the link below to download the instructions to your machine.
 
-[Instructions](https://github.com/bleonardb3/DS_POT_02-07/raw/master/Lab-1/WatsonKnowledgeCatalog.pdf).
+[Instructions](https://github.com/bleonardb3/DS_POT_02-07/raw/master/Lab-1/Watson%20Knowledge%20Catalog.pdf).
 
