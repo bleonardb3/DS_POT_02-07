@@ -22,9 +22,13 @@ Upon completing the lab, you will know how to:
 
 ## Instructions:
 
-### Step 1.  Log into your [http://datascience.ibm.com/](http://datascience.ibm.com/) account, then click Tools in the top menu bar and select RStudio.
+### Step 1.  Navigate to the `Watson Studio Labs` project by clicking on `Projects` and `Watson Studio Labs`
 
-> <img src="https://raw.githubusercontent.com/jpatter/Proof-of-Technology/master/DSX/Lab-3/images/RStudio-select.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-3/images/GotoWatsonStudioLabs.png"/>
+
+### Step 2. Click on `Launch IDE` and `RStudio`
+
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-3/images/LaunchRStudio.png"/>
 
 ### Step 2.  Create a new project by clicking on `File` > `New Project`.
 
