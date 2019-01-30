@@ -2,24 +2,22 @@
 
 ## Introduction:
 
-[<img src="https://github.com/jpatter/LMCO/blob/master/Lab-1/images/DB2Warehouse.png" height="150"/>](https://www.ibm.com/analytics/us/en/technology/cloud-data-services/dashdb/) [<img src="https://raw.githubusercontent.com/Davin-IBM/Proof-of-Technology/master/DSX/images/RStudio2.png"/>](https://www.rstudio.com/) [<img src="https://raw.githubusercontent.com/Davin-IBM/Proof-of-Technology/master/DSX/images/shiny.png"/>](https://shiny.rstudio.com/)
-
-In this lab, you will learn some of the fundamentals of using RStudio and Shiny in DSX to work and interact with data in DB2 Warehouse and then to create a fully operational "reactive" web application that you can enhance further.
+In this lab, you will learn some of the fundamentals of using RStudio and Shiny in Watson Studio to work and interact with data in a DB2 on Cloud database and then to create a fully operational "reactive" web application that you can enhance further.
 
 ## Objectives:
 
 Upon completing the lab, you will know how to:
 
 1. Create an RStudio project from a Git repository
-1. Establish a connection to DB2 Warehouse using an ancillary file
-1. Query, join, explore and visualize data in an R notebook
-1. Derive categorical names from numerical levels in an R dataframe
-1. Use ggplot2 to create bar plots of several of the columns in an R dataframe
+1. Establish a connection to a DB2 on Cloud service using an ancillary file
+1. Query, join, explore and visualize data in a R notebook
+1. Derive categorical names from numerical levels in a R dataframe
+1. Use ggplot2 to create bar plots of several of the columns in a R dataframe
 1. Use a logorithmic scale when creating bar plots
 1. Close the database connection
 1. Leverage shiny to create and run a web application
-1. Interact with the shiny web web application by runnng it externally
-1. Vet additional records in DB2 Warehouse using the web application
+1. Interact with the shiny web application by runnng it externally
+1. Vet additional records in a DB2 database  using the web application
 1. Explore the changes made after vetting and re-running the predictions generated in Lab-2
 
 ## Instructions:
