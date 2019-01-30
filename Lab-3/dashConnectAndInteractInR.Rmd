@@ -1,0 +1,121 @@
+---
+title: "R Notebook showing how to connect to DB2 Database and do some simple exploration"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+
+```{r}
+# Detect and install missing packages before loading them
+list.of.packages <- c('ibmdbR', 'ggplot2')
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,'Package'])]
+if(length(new.packages)) install.packages(new.packages)
+lapply(list.of.packages, function(x){library(x, character.only = TRUE, warn.conflicts = FALSE, quietly = TRUE)})
+```
+
+Establish a connection to DB2 Database. You'll need to fill in details of your dashDB instance in the connection.R file (if you haven't done so already) 
+the DB2 Database instance's hostname, user ID (uid) and password (pwd) as well as the name of the vetting table.
+
+```{r}
+# Get connection details
+source('connection.R', local = TRUE)
+
+conn.path <- paste0(
+  dsn.database,
+  ";DATABASE=", dsn.database,
+  ";HOSTNAME=", dsn.hostname,
+  ";PORT=", dsn.port,
+  ";PROTOCOL=", dsn.protocol,
+  ";UID=", dsn.uid,
+  ";PWD=", dsn.pwd
+)
+
+# Connect to using a odbc Driver Connection string to a remote database
+conn <- idaConnect(conn.path)
+
+# Initialize the analytics package
+idaInit(conn)
+
+# Test whether the connection is working by showing the tables
+idaShowTables()
+```
+
+```{r}
+# Load the desired table into a data frame.  Note: vetting.table is assigned in connection.R.
+idadf = ida.data.frame(vetting.table)
+
+# Show the table dimensions
+dim(idadf)
+```
+
+Examine the first few rows of the vetting and vetting predictions tables.
+
+```{r}
+# Show the first few records in the vetting table data frame and in the vetting predictions table
+head(idadf)
+head(ida.data.frame(paste0(vetting.table, '_ML_RESULTS')))
+```
+
+Join the vetting table with the vetting predictions table.
+
+```{r}
+# Join the ML predictions with the vetting table using the UUID
+predicted = as.data.frame(
+  idaQuery(
+    'SELECT * FROM ', vetting.table, ' LEFT JOIN ', vetting.table, '_ML_RESULTS USING (UUID)',
+    ' ORDER BY VETTING_LEVEL, NAME'
+  )
+)
+
+# Show the first few records in the joined data frame
+head(predicted)
+```
+
+Create a few quick plots to get an understanding of what's in the data.
+
+```{r}
+# Create a bar plot showing the counts of AGE and COUNTRIES_VISITED_COUNT
+qplot(AGE, data = predicted, geom = 'bar')
+qplot(COUNTRIES_VISITED_COUNT, data = predicted, geom = 'bar')
+
+# Create a bar plot showing the counts (on a logarithmic scale) of BIRTH_COUNTRY
+qplot(BIRTH_COUNTRY, data = predicted, geom = 'bar', log = 'y')
+```
+
+Create category names from the numerical levels used in VETTING and PREDICTED_VETTING.
+
+```{r}
+# Convert the VETTING_LEVEL and predCategory values into their category names and store the results in VETTING and PREDICTED_VETTING, respectively
+predicted$VETTING <- plyr::revalue(
+  warn_missing = FALSE, as.character(predicted$VETTING_LEVEL),
+  c('10' = 'HIGH VETTED', '20' = 'MEDIUM VETTED', '30' = 'LOW VETTED', '100'='Pending')
+)
+predicted$predCategory[is.na(predicted$predCategory)] <- 100
+predicted$PREDICTED_VETTING <- plyr::revalue(
+  warn_missing = FALSE, as.character(as.integer(predicted$predCategory)),
+  c('10'='HIGH PREDICTED', '20'='MEDIUM PREDICTED', '30'='LOW PREDICTED', '100'='Pending')
+)
+
+# Show a few columns of the first few records
+head(predicted[c('NAME', 'AGE', 'COUNTRIES_VISITED', 'BIRTH_COUNTRY', 'VETTING', 'PREDICTED_VETTING')])
+```
+
+Graph the vetting and predicted vetting categories.
+
+```{r}
+# Create a bar plot showing the counts (on a logarithmic scale) of VETTING and PREDICTED_VETTING
+qplot(VETTING, data = predicted, geom = 'bar', log = 'y')
+qplot(PREDICTED_VETTING, data = predicted, geom = 'bar', log = 'y')
+```
+
+Close the database connection.
+
+```{r}
+idaClose(conn)
+```
