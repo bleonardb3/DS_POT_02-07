@@ -17,11 +17,15 @@ Upon completing the lab, you will know how to:
 
 ### Step 1.  Click on `Projects` and then click `Watson Studio Labs` (or whatever you named the project)
 
-> <img src="https://github.com/bleonardb3/ML-POT/blob/master/Lab-1/images/View%20All%20Projects.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-2/images/ClickonWatsonStudioLabs.png"/>
 
-### Step 2.  We are now going to create a new notebook in our project. This notebook will be created from a url that points to the Category Vetted notebook in the github repository. Click the `Add to project` link and then the `Notebook` link as shown below. 
+### Step 2.  We are now going to create a new notebook in our project. This notebook will be created from a url that points to the Machine Learning with SparkML notebook in the github repository. Click the `Add to project` link.  
 
-> <img src="https://github.com/bleonardb3/ML-POT/blob/master/Lab-1/images/Add%20Notebook.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-2/images/ClickAddtoProject.png"/>
+
+### Step 3. Click on the `Notebook` link. 
+
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-2/images/Clickon%20Notebook.png"/>
 
 ### Step 4.  Create the notebook.
 
