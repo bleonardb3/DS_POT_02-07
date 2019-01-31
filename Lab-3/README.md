@@ -61,10 +61,10 @@ Consider this notebook your *data playground*.  This is the place where you can 
 > <img src="https://raw.githubusercontent.com/Davin-IBM/Proof-of-Technology/master/DSX/Lab-3/images/RStudio-lab3-shiny-app.png"/>
 
 ### Step 12.  Click the `Run App` (green triangle) in the top right of the main panel to run the app.  The app should appear in the Viewer pane in the bottom right corner of the IDE.  If it does not, select the little black downward pointing triangle and set to Run in Viewer Pane.
-> <img src="https://raw.githubusercontent.com/Davin-IBM/Proof-of-Technology/master/DSX/Lab-3/images/RStudio-lab3-app-viewer.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-3/images/AppinViewerPane.png"/>
 
 ### Step 13.  Click the little black downward pointing triangle next to the  `Run App` (green triangle) in the top right of the main panel to run the app in another browser window (Run External).
-> <img src="https://raw.githubusercontent.com/Davin-IBM/Proof-of-Technology/master/DSX/Lab-3/images/RStudio-lab3-app-external.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-3/images/AppinExternalPane.png"/>
 
 ### Step 14.  In the running app, click on some of the rows in the table and vet some of the records.
 > <img src="https://raw.githubusercontent.com/Davin-IBM/Proof-of-Technology/master/DSX/Lab-3/images/RStudio-lab3-vet-records.png"/>
