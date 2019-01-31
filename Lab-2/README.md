@@ -7,23 +7,19 @@ Upon completing the lab, you will know how to:
 2. Identify labels and transform data.
 3. Conduct feature engineering for algorithm data.
 4. Declare a machine learning model.
-5. Setup the Pipeline for data transofms and training.
+5. Setup the Pipeline for data transforms and training.
 6. Train the data.
 7. Show and evaluate machine learning results.
 8. Automatically tune machine learning results.
-9. Score data and load  into a new table in DB2 Warehouse.
+9. Score data and load  into a new DB2 table. 
 
 ## Instructions:
 
-### Step 1.  Log into your [Watson Studio](http://datascience.ibm.com/) account, then select `View All Projects`.
+### Step 1.  Click on `Projects` and then click `Watson Studio Labs` (or whatever you named the project)
 
 > <img src="https://github.com/bleonardb3/ML-POT/blob/master/Lab-1/images/View%20All%20Projects.png"/>
 
-### Step 2.  Select the project you created at the beginning of this proof of technology.
-
-> <img src="https://github.com/bleonardb3/ML-POT/blob/master/Lab-1/images/Select%20Watson%20Studio%20Labs.png"/>
-
-### Step 3.  We are now going to create a new notebook in our project. This notebook will be created from a url that points to the Category Vetted notebook in the github repository. Click the `Add to project` link and then the `Notebook` link as shown below. 
+### Step 2.  We are now going to create a new notebook in our project. This notebook will be created from a url that points to the Category Vetted notebook in the github repository. Click the `Add to project` link and then the `Notebook` link as shown below. 
 
 > <img src="https://github.com/bleonardb3/ML-POT/blob/master/Lab-1/images/Add%20Notebook.png"/>
 
