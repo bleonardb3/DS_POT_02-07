@@ -2,11 +2,11 @@
 
 ## Introduction:
 
-This lab will introduce you to the features of IBM's Watson Knowledge Catalog. Watson Knowledge Catalog is a secure enterprise catalog to discover, catalog and govern your data and modeling assets with greater efficiency. 
+IBM Watson provides APIs and Services for discovery, natural language understanding, visual recognition, speech to text, text to speech, language translation, natural language classification, personality and tone analysis.  Two of these capabilities are currently integrated with Watson Studio, (1) Visual Recognition service, and (2) Natural Language Classification service. This lab will focus on the Visual Recognition service integration with Watson Studio. 
 
 ## Objectives:
 
-The goal of the lab is to gain familiarity with the features of the Watson Visual Recognition service. Upon completing the lab, you will know how to:
+The goal of the lab is to gain familiarity with the features of the Watson Visual Recognition service integration with Watson Studio. Upon completing the lab, you will know how to:
 
 1.	Create a Watson Visual Recognition service
 2.	Associate the service with a project
