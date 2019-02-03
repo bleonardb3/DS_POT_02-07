@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-IBM Watson provides APIs and Services for discovery, natural language understanding, visual recognition, speech to text, text to speech, language translation, natural language classification, personality and tone analysis.  Two of these capabilities are currently integrated with Watson Studio, (1) Visual Recognition service, and (2) Natural Language Classification service. This lab will focus on the Visual Recognition service integration with Watson Studio. 
+IBM Watson provides APIs and Services for discovery, natural language understanding, visual recognition, speech to text, text to speech, language translation, natural language classification, personality insights and tone analysis.  Two of these capabilities are currently integrated with Watson Studio, (1) the Visual Recognition service, and (2) the Natural Language Classification service. This lab will focus on the Visual Recognition service integration with Watson Studio. 
 
 ## Objectives:
 
