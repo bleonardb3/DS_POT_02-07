@@ -7,8 +7,13 @@ This lab will introduce you to the features of IBM's Watson Knowledge Catalog. W
 ## Objectives:
 
 The goal of the lab is to gain familiarity with the features of the Watson Visual Recognition service. Upon completing the lab, you will know how to:
-1.	Create a Watson Visual Recognition Service
+
+1.	Create a Watson Visual Recognition service
 2.	Associate the service with a project
+3.  Create visual recognition classes
+4.  Associate files of images with these classes. 
+5.  Train the visual recognition model
+6.  Test the model. 
 
 
 ## Instructions:
