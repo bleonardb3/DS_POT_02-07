@@ -1,11 +1,11 @@
 # Lab-8: Introduction to the Watson Natural Language Classification Service 
 
 ## Introduction:
-Verbiage about Watson AI services
+IBM Watson provides APIs and Services for discovery, natural language understanding, visual recognition, speech to text, text to speech, language translation, natural language classification, personality and tone analysis.  Two of these capabilities are currently integrated with Watson Studio, (1) Visual Recognition service, and (2) Natural Language Classification service. This lab will focus on the Natural Language Classification service integration with Watson Studio. 
 
 ## Objectives:
 
-The goal of the lab is to gain familiarity with the features of the Watson Natural Language Classifier service. Upon completing the lab, you will know how to:
+The goal of the lab is to gain familiarity with the features of the Watson Natural Language Classifier service integration with Watson Studio. Upon completing the lab, you will know how to:
 
 1.	Create a Watson Natural Language Classifer service
 2.	Associate the service with a project
