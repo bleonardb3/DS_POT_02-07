@@ -10,7 +10,7 @@ The goal of the lab is to gain familiarity with the features of the Watson Natur
 1.	Create a Watson Natural Language Classifer service
 2.	Associate the service with a project
 3.  Create natural language classifier categories
-4.  Associate files of Airbnb reviews with these categories. 
+4.  Associate Airbnb reviews with these categories. 
 5.  Train the natural language classifer model
 6.  Test the model. 
 
