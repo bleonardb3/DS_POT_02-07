@@ -12,7 +12,7 @@ The goal of the lab is to gain familiarity with the features of the Watson Knowl
 3.	Add Data Assets to the catalog
 4.	Search the catalog
 5.	Edit/Review/Profile a Data Asset
-6.	Set up access control features. 
+6.	Demonstrate access control features. 
 7.	Create and enforce policy (optional) 
 8.	Push the Data Assets to a project. 
 
