@@ -13,12 +13,12 @@ Upon completing the lab, you will know how to:
 1. Query, join, explore and visualize data in a R notebook
 1. Derive categorical names from numerical levels in a R dataframe
 1. Use ggplot2 to create bar plots of several of the columns in a R dataframe
-1. Use a logorithmic scale when creating bar plots
+1. Use a logarithmic scale when creating bar plots
 1. Close the database connection
 1. Leverage shiny to create and run a web application
-1. Interact with the shiny web application by runnng it externally
+1. Interact with the shiny web application by running it externally
 1. Vet additional records in a DB2 database  using the web application
-1. Explore the changes made after vetting and re-running the predictions generated in Lab-2
+
 
 ## Instructions:
 
