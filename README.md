@@ -34,6 +34,10 @@ The labs in this workshop will illustrate the myriad features included in Watson
 ### Step 2.  If you have an existing project from following the signup instructions then select it, and skip to Step 8.  Otherwise, click on `New Project`. 
 > <img src="https://github.com/bleonardb3/ThinkGov/blob/master/Images/Select%20New%20Project.png"/>
 
+### Step 3. Hover the mouse over Standard, and click on `Create Project`. 
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/images/CreateStandardProject.png"/>
+
+
 ### Step 3. Enter the project name (eg. Watson Studio Labs), optionally a description, and then click on `Add` in the Storage section. Note if you have already provisioned cloud object storage (you shouldn't see an Add button) , then just click on the `Create` button, and skip to Step 8. 
 
 > <img src="https://github.com/bleonardb3/ThinkGov/blob/master/Images/New%20Project%20Panel%20-%20Add%20Storage.png"/>
