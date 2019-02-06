@@ -68,7 +68,7 @@ Consider this notebook your *data playground*.  This is the place where you can 
 > <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-3/images/AppinExternalPane.png"/>
 
 ### Step 14.  In the running app, click on some of the rows in the table and vet some of the records.
-> <img src="https://raw.githubusercontent.com/Davin-IBM/Proof-of-Technology/master/DSX/Lab-3/images/RStudio-lab3-vet-records.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-3/images/AppinExternalPanewithVetting.png"/>
 
 ### Step 15.  Interact with your app and consider ways it can be improved.
 
