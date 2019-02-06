@@ -18,8 +18,9 @@ Upon completing the lab, you will know how to:
 
 ## Instructions:
 
-### Step 1.  Click on `Projects` and then click `Watson Studio Labs` (or whatever you named the project)
+### Step 1.  Click on the hamburger icon, then click on `Projects`, and then `Watson Studio Labs` (or whatever you named the project)
 
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/images/Navigation%20Selection.png"/>
 > <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-2/images/ClickonWatsonStudioLabs.png"/>
 
 ### Step 2.  We are now going to create a new notebook in our project. This notebook will be created from a url that points to the Machine Learning with SparkML notebook in the github repository. Click the `Add to project` link.  
