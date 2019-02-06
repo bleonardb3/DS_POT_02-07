@@ -38,7 +38,7 @@ Upon completing the lab, you will know how to:
 1. Click the `From URL` tab under `New Notebook`.
 1. Give the notebook a name in the `Name` field, for example `Machine Learning with SparkML` and optionally you can give it a description.
 1. In the Notebook URL field, use `https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-2/Machine%20Learning%20with%20SparkML.ipynb`.
-1. Select the Spark environment that you created, then click the `Create Notebook` button on the bottom right of the screen.
+1. Change the environment to be `Default Spark Python 3.5 XS (Driver with 1vCPU...`, then click the `Create Notebook` button on the bottom right of the screen.
 
 ### Step 5.  Follow the instructions in the notebook.
 
