@@ -22,9 +22,10 @@ Upon completing the lab, you will know how to:
 
 ## Instructions:
 
-### Step 1.  Navigate to the `Watson Studio Labs` project by clicking on `Projects` and `Watson Studio Labs`
+### Step 1.  Click on the hamburger icon, then click on `Projects`, and then `Watson Studio Labs` (or whatever you named the project)
 
-> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-3/images/GotoWatsonStudioLabs.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/images/Navigation%20Selection.png"/>
+> <img src="https://github.com/bleonardb3/DS_POT_02-07/blob/master/Lab-2/images/ClickonWatsonStudioLabs.png"/>
 
 ### Step 2. Click on `Launch IDE` and `RStudio`
 
